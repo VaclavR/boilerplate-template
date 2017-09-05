@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+
+#searchForm {
+  margin-right: 100px;
+}
+@media (max-width: 1200px) {
+  #searchForm {
+    display: none;
+  }
+}
